@@ -1,9 +1,9 @@
 import _ from "lodash";
+import summing from "./src/index.js";
 
 console.log(_.last(["one", "two"]));
 console.log("Hello, Hexlet!");
 
-const fn = (a, b) => {
-  const c = a + b;
-  return c;
-};
+const sumOfTwoElements = summing(10, 12);
+console.log(`the sum of two numbers is ${sumOfTwoElements}`);
+// console.log();
